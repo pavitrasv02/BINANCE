@@ -42,35 +42,22 @@ README.md
 git clone <your-repo-link>
 cd trading_bot
 
-### 2. Create virtual environment (optional but recommended)
-
-python -m venv venv
-venv\Scripts\activate   (Windows)
-
-### 3. Install dependencies
-
-pip install -r requirements.txt
-
----
 
 ## Binance Testnet Setup
 
-1. Go to Binance Futures Testnet
-2. Create account and generate API keys
+
+1. Create account and generate API keys
 
 ---
 
 ## Set API Credentials
 
-### Option 1: Environment variables (recommended)
+### Option 1: Environment variables 
 
 Windows:
 set BINANCE_API_KEY=your_api_key
 set BINANCE_API_SECRET=your_api_secret
 
-Linux/Mac:
-export BINANCE_API_KEY=your_api_key
-export BINANCE_API_SECRET=your_api_secret
 
 ---
 
@@ -128,8 +115,3 @@ Includes:
 * Binance Futures Testnet is used (no real funds involved)
 
 ---
-
-## Notes
-
-* This project is intended for demonstration and testing purposes only
-* Do not use real API keys with production funds
